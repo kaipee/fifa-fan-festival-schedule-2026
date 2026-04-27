@@ -1,0 +1,1172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//roo//FIFA Fan Festival Toronto 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FIFA Fan Festival Toronto 2026
+X-WR-CALDESC:FIFA Fan Festival™ Toronto — official schedule (Fort York & T
+ he Bentway, June 11 – July 19, 2026). Source: torontofwc26.ca.
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:STANDARD
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:27d541b507e7410a@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260611T123000
+DTEND;TZID=America/Toronto:20260611T193000
+SUMMARY:FIFA Fan Festival Toronto — Thu Jun 11
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 12:30 to 19:30.\n\n
+ Match broadcasts:\n  • 15:00 — Mexico vs South Africa\n\nPerformances: AH
+ I\, Skratch Bastid\, Walk off the Earth\, Kardinal Offishall Presents: So
+ undclash Society\nCultural & community: Ballet Folklórico Puro México\, M
+ ariachi Band Vientos del Norte\n\nFree general admission — advance ticket
+  required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSchedule
+  source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-sched
+ ule\nNote: Performance line-ups and TBC broadcasts may change\; check the
+  official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1e93398e883d681c@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260611T150000
+DTEND;TZID=America/Toronto:20260611T170000
+SUMMARY:Match: Mexico vs South Africa
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8ada649165677ded@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260612T123000
+DTEND;TZID=America/Toronto:20260612T233000
+SUMMARY:FIFA Fan Festival Toronto — Fri Jun 12 (Toronto Match Day)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 12:30 to 23:30.\n\n
+ *** Toronto Match Day ***\n\nMatch broadcasts:\n  • 15:00 — Canada vs Bos
+ nia & Herzegovina [Toronto host-city match]\n  • 21:00 — USA vs Paraguay\
+ n\nPerformances: Big Wreck\, Choir! Choir! Choir!\, Kardinal Offishall Pr
+ esents: Soundclash Society\n\nFree general admission — advance ticket req
+ uired. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSchedule sou
+ rce: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-schedule\
+ nNote: Performance line-ups and TBC broadcasts may change\; check the off
+ icial site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4c1bde2e1f35b997@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260612T150000
+DTEND;TZID=America/Toronto:20260612T170000
+SUMMARY:Match: Canada vs Bosnia & Herzegovina [Toronto host-city match]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\nThis match is being played l
+ ive in Toronto (BMO Field / Toronto Stadium).\n\nSource: https://www.toro
+ ntofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:77f2df2f8d938ca4@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260612T210000
+DTEND;TZID=America/Toronto:20260612T230000
+SUMMARY:Match: USA vs Paraguay
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a4af915c72e2a333@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260613T130000
+DTEND;TZID=America/Toronto:20260613T233000
+SUMMARY:FIFA Fan Festival Toronto — Sat Jun 13
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:00 to 23:30.\n\n
+ Match broadcasts:\n  • 15:00 — Qatar vs Switzerland\n  • 18:00 — Brazil v
+ s Morocco\n  • 21:00 — Haiti vs Scotland\n\nPerformances: Anna Sofia\, Th
+ e Strumbellas\, Kardinal Offishall Presents: Soundclash Society\nCultural
+  & community: Springcreek Dancers\n\nFree general admission — advance tic
+ ket required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSched
+ ule source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-sc
+ hedule\nNote: Performance line-ups and TBC broadcasts may change\; check 
+ the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4a46215a618f603e@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260613T150000
+DTEND;TZID=America/Toronto:20260613T170000
+SUMMARY:Match: Qatar vs Switzerland
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2007ad5b8c197b7f@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260613T180000
+DTEND;TZID=America/Toronto:20260613T200000
+SUMMARY:Match: Brazil vs Morocco
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 18:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2b10222ee4668af5@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260613T210000
+DTEND;TZID=America/Toronto:20260613T230000
+SUMMARY:Match: Haiti vs Scotland
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0c9ca03d298443f9@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260614T133000
+DTEND;TZID=America/Toronto:20260614T213000
+SUMMARY:FIFA Fan Festival Toronto — Sun Jun 14
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 21:30.\n\n
+ Match broadcasts:\n  • 16:00 — Netherlands vs Japan\n  • 19:00 — Côte d'I
+ voire vs Ecuador\n\nPerformances: Murda Beatz\, Kardinal Offishall Presen
+ ts: Soundclash Society\nCultural & community: Nagata Shachu\n\nFree gener
+ al admission — advance ticket required. Tickets: https://www.torontofwc26
+ .ca/FIFAFanFestival\nSchedule source: https://www.torontofwc26.ca/news/fi
+ fa-fan-festival-toronto-schedule\nNote: Performance line-ups and TBC broa
+ dcasts may change\; check the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e075e2d337bd45be@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260614T160000
+DTEND;TZID=America/Toronto:20260614T180000
+SUMMARY:Match: Netherlands vs Japan
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 16:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:321c966fcf88000a@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260614T190000
+DTEND;TZID=America/Toronto:20260614T210000
+SUMMARY:Match: Côte d'Ivoire vs Ecuador
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 19:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7e8cdd3e41c571ca@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260617T143000
+DTEND;TZID=America/Toronto:20260617T223000
+SUMMARY:FIFA Fan Festival Toronto — Wed Jun 17 (Toronto Match Day)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 14:30 to 22:30.\n\n
+ *** Toronto Match Day ***\n\nMatch broadcasts:\n  • 16:00 — England vs Cr
+ oatia [Toronto host-city match]\n  • 19:00 — Ghana vs Panama\n\nPerforman
+ ces: Kardinal Offishall Presents: Soundclash Society\nCultural & communit
+ y: Black Stars Collective\n\nFree general admission — advance ticket requ
+ ired. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSchedule sour
+ ce: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-schedule\n
+ Note: Performance line-ups and TBC broadcasts may change\; check the offi
+ cial site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3a9a33621ffdbfa5@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260617T160000
+DTEND;TZID=America/Toronto:20260617T180000
+SUMMARY:Match: England vs Croatia [Toronto host-city match]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 16:00 (local Toronto time).\nThis match is being played l
+ ive in Toronto (BMO Field / Toronto Stadium).\n\nSource: https://www.toro
+ ntofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:43d11f9700281c6c@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260617T190000
+DTEND;TZID=America/Toronto:20260617T210000
+SUMMARY:Match: Ghana vs Panama
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 19:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3a00031139b54863@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260618T133000
+DTEND;TZID=America/Toronto:20260618T233000
+SUMMARY:FIFA Fan Festival Toronto — Thu Jun 18
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 23:30.\n\n
+ Match broadcasts:\n  • 15:00 — Switzerland vs Bosnia & Herzegovina\n  • 1
+ 8:00 — Canada vs Qatar\n  • 21:00 — Mexico vs Korea\n\nPerformances: Dway
+ ne Gretzky\, The Brokes\, Kardinal Offishall Presents: Soundclash Society
+ \nCultural & community: HanBeat Nanta\n\nFree general admission — advance
+  ticket required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nS
+ chedule source: https://www.torontofwc26.ca/news/fifa-fan-festival-toront
+ o-schedule\nNote: Performance line-ups and TBC broadcasts may change\; ch
+ eck the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fbdf55cada3589d5@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260618T150000
+DTEND;TZID=America/Toronto:20260618T170000
+SUMMARY:Match: Switzerland vs Bosnia & Herzegovina
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0e5a47831fdca156@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260618T180000
+DTEND;TZID=America/Toronto:20260618T200000
+SUMMARY:Match: Canada vs Qatar
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 18:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ce7d1ef8bebee783@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260618T210000
+DTEND;TZID=America/Toronto:20260618T230000
+SUMMARY:Match: Mexico vs Korea
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d44d8f3981ca55a6@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260619T133000
+DTEND;TZID=America/Toronto:20260619T233000
+SUMMARY:FIFA Fan Festival Toronto — Fri Jun 19
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 23:30.\n\n
+ Match broadcasts:\n  • 15:00 — USA vs Australia\n  • 18:00 — Scotland vs 
+ Morocco\n  • 21:00 — Brazil vs Haiti\n\nPerformances: Dwayne Gretzky\, Ka
+ rdinal Offishall Presents: Soundclash Society\nCultural & community: Supe
+ rDogs\n\nFree general admission — advance ticket required. Tickets: https
+ ://www.torontofwc26.ca/FIFAFanFestival\nSchedule source: https://www.toro
+ ntofwc26.ca/news/fifa-fan-festival-toronto-schedule\nNote: Performance li
+ ne-ups and TBC broadcasts may change\; check the official site for the la
+ test information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:069029b2f9ac1dd8@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260619T150000
+DTEND;TZID=America/Toronto:20260619T170000
+SUMMARY:Match: USA vs Australia
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c6804298c641f20f@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260619T180000
+DTEND;TZID=America/Toronto:20260619T200000
+SUMMARY:Match: Scotland vs Morocco
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 18:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:89a266da183183d2@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260619T210000
+DTEND;TZID=America/Toronto:20260619T230000
+SUMMARY:Match: Brazil vs Haiti
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4acb821a88f729e8@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260620T130000
+DTEND;TZID=America/Toronto:20260620T223000
+SUMMARY:FIFA Fan Festival Toronto — Sat Jun 20 (Toronto Match Day)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:00 to 22:30.\n\n
+ *** Toronto Match Day ***\n\nMatch broadcasts:\n  • 16:00 — Germany vs Cô
+ te d'Ivoire [Toronto host-city match]\n  • 20:00 — Ecuador vs Curaçao\n\n
+ Performances: k-os\, Skratch Bastid\, Kardinal Offishall Presents: Soundc
+ lash Society\n\nFree general admission — advance ticket required. Tickets
+ : https://www.torontofwc26.ca/FIFAFanFestival\nSchedule source: https://w
+ ww.torontofwc26.ca/news/fifa-fan-festival-toronto-schedule\nNote: Perform
+ ance line-ups and TBC broadcasts may change\; check the official site for
+  the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8d1f301b21a55017@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260620T160000
+DTEND;TZID=America/Toronto:20260620T180000
+SUMMARY:Match: Germany vs Côte d'Ivoire [Toronto host-city match]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 16:00 (local Toronto time).\nThis match is being played l
+ ive in Toronto (BMO Field / Toronto Stadium).\n\nSource: https://www.toro
+ ntofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1e5d6b8e158e95d0@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260620T200000
+DTEND;TZID=America/Toronto:20260620T220000
+SUMMARY:Match: Ecuador vs Curaçao
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 20:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:59d562a87ca02495@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260621T103000
+DTEND;TZID=America/Toronto:20260621T210000
+SUMMARY:FIFA Fan Festival Toronto — Sun Jun 21
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 10:30 to 21:00.\n\n
+ Match broadcasts:\n  • 12:00 — Spain vs Saudi Arabia\n  • 15:00 — Belgium
+  vs IR Iran\n  • 18:00 — Uruguay vs Cape Verde\n\nPerformances: Allied Na
+ tions\, Classic Roots\, Nimkii and the Niniis\, Kardinal Offishall Presen
+ ts: Soundclash Society\nCultural & community: The Sky Dancers\n\nFree gen
+ eral admission — advance ticket required. Tickets: https://www.torontofwc
+ 26.ca/FIFAFanFestival\nSchedule source: https://www.torontofwc26.ca/news/
+ fifa-fan-festival-toronto-schedule\nNote: Performance line-ups and TBC br
+ oadcasts may change\; check the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4ae0bbe4b660e26e@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260621T120000
+DTEND;TZID=America/Toronto:20260621T140000
+SUMMARY:Match: Spain vs Saudi Arabia
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 12:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1ffccede0c30e06f@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260621T150000
+DTEND;TZID=America/Toronto:20260621T170000
+SUMMARY:Match: Belgium vs IR Iran
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5f718f5eeb33542c@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260621T180000
+DTEND;TZID=America/Toronto:20260621T200000
+SUMMARY:Match: Uruguay vs Cape Verde
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 18:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:388ab4ece98ce99d@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260623T113000
+DTEND;TZID=America/Toronto:20260623T223000
+SUMMARY:FIFA Fan Festival Toronto — Tue Jun 23 (Toronto Match Day)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 11:30 to 22:30.\n\n
+ *** Toronto Match Day ***\n\nMatch broadcasts:\n  • 13:00 — Portugal vs U
+ zbekistan [Toronto host-city match]\n  • 16:00 — England vs Ghana\n  • 19
+ :00 — Panama vs Croatia\n\nPerformances: Shawn Desman\, Kardinal Offishal
+ l Presents: Soundclash Society\n\nFree general admission — advance ticket
+  required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSchedule
+  source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-sched
+ ule\nNote: Performance line-ups and TBC broadcasts may change\; check the
+  official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:84246af45f172c9a@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260623T130000
+DTEND;TZID=America/Toronto:20260623T150000
+SUMMARY:Match: Portugal vs Uzbekistan [Toronto host-city match]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 13:00 (local Toronto time).\nThis match is being played l
+ ive in Toronto (BMO Field / Toronto Stadium).\n\nSource: https://www.toro
+ ntofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1cad75e933f2b97f@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260623T160000
+DTEND;TZID=America/Toronto:20260623T180000
+SUMMARY:Match: England vs Ghana
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 16:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:52035246e439a454@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260623T190000
+DTEND;TZID=America/Toronto:20260623T210000
+SUMMARY:Match: Panama vs Croatia
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 19:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5966e3cfd7d8df0d@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260624T133000
+DTEND;TZID=America/Toronto:20260624T233000
+SUMMARY:FIFA Fan Festival Toronto — Wed Jun 24
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 23:30.\n\n
+ Match broadcasts:\n  • 15:00 — Switzerland vs Canada\n  • 18:00 — To be c
+ onfirmed [TBC]\n  • 21:00 — To be confirmed [TBC]\n\nPerformances: Snotty
+  Nose Rez Kids\, Kardinal Offishall Presents: Soundclash Society\nCultura
+ l & community: SHOUT! the band\n\nFree general admission — advance ticket
+  required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSchedule
+  source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-sched
+ ule\nNote: Performance line-ups and TBC broadcasts may change\; check the
+  official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c0e744b169fd7a10@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260624T150000
+DTEND;TZID=America/Toronto:20260624T170000
+SUMMARY:Match: Switzerland vs Canada
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:a52a4afa4df584f1@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260624T180000
+DTEND;TZID=America/Toronto:20260624T200000
+SUMMARY:Match: To be confirmed [TBC]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 18:00 (local Toronto time).\nFixture/teams to be confirme
+ d (TBC) — see official schedule for updates.\n\nSource: https://www.toron
+ tofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1cdf43217612259e@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260624T210000
+DTEND;TZID=America/Toronto:20260624T230000
+SUMMARY:Match: To be confirmed [TBC]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:00 (local Toronto time).\nFixture/teams to be confirme
+ d (TBC) — see official schedule for updates.\n\nSource: https://www.toron
+ tofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d50a7bd121e1d92d@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260626T133000
+DTEND;TZID=America/Toronto:20260626T223000
+SUMMARY:FIFA Fan Festival Toronto — Fri Jun 26 (Toronto Match Day)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 22:30.\n\n
+ *** Toronto Match Day ***\n\nMatch broadcasts:\n  • 15:00 — To be confirm
+ ed (Toronto match) [Toronto host-city match] [TBC]\n  • 20:00 — Uruguay v
+ s Spain\n\nPerformances: Ikky\, Kardinal Offishall Presents: Soundclash S
+ ociety\n\nFree general admission — advance ticket required. Tickets: http
+ s://www.torontofwc26.ca/FIFAFanFestival\nSchedule source: https://www.tor
+ ontofwc26.ca/news/fifa-fan-festival-toronto-schedule\nNote: Performance l
+ ine-ups and TBC broadcasts may change\; check the official site for the l
+ atest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bc7137a478d1bee3@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260626T150000
+DTEND;TZID=America/Toronto:20260626T170000
+SUMMARY:Match: To be confirmed (Toronto match) [Toronto host-city match\; 
+ TBC]
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\nThis match is being played l
+ ive in Toronto (BMO Field / Toronto Stadium).\nFixture/teams to be confir
+ med (TBC) — see official schedule for updates.\n\nSource: https://www.tor
+ ontofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:039d96922925c2b0@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260626T200000
+DTEND;TZID=America/Toronto:20260626T220000
+SUMMARY:Match: Uruguay vs Spain
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 20:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fb62a5dc28a06b05@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260627T143000
+DTEND;TZID=America/Toronto:20260627T220000
+SUMMARY:FIFA Fan Festival Toronto — Sat Jun 27
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 14:30 to 22:00.\n\n
+ Match broadcasts:\n  • 17:00 — Panama vs England\n  • 19:30 — Colombia vs
+  Portugal\n\nPerformances: Kardinal Offishall Presents: Soundclash Societ
+ y\n\nFree general admission — advance ticket required. Tickets: https://w
+ ww.torontofwc26.ca/FIFAFanFestival\nSchedule source: https://www.torontof
+ wc26.ca/news/fifa-fan-festival-toronto-schedule\nNote: Performance line-u
+ ps and TBC broadcasts may change\; check the official site for the latest
+  information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:baf24625ca9b2bf7@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260627T170000
+DTEND;TZID=America/Toronto:20260627T190000
+SUMMARY:Match: Panama vs England
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 17:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6bb26e1e633dceb1@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260627T193000
+DTEND;TZID=America/Toronto:20260627T213000
+SUMMARY:Match: Colombia vs Portugal
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 19:30 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:bf23aef960ca9f50@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260702T133000
+DTEND;TZID=America/Toronto:20260702T223000
+SUMMARY:FIFA Fan Festival Toronto — Thu Jul 02 (Toronto Match Day)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 22:30.\n\n
+ *** Toronto Match Day ***\n\nMatch broadcasts:\n  • 15:00 — Round of 32\n
+   • 19:00 — Round of 32\n\nPerformances: Deborah Cox\, TOBi\, Kardinal Of
+ fishall Presents: Soundclash Society\n\nFree general admission — advance 
+ ticket required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSc
+ hedule source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto
+ -schedule\nNote: Performance line-ups and TBC broadcasts may change\; che
+ ck the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:59a7d5bf81c2ce86@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260702T150000
+DTEND;TZID=America/Toronto:20260702T170000
+SUMMARY:Match: Round of 32
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6b0c0c3acf8fcc83@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260702T190000
+DTEND;TZID=America/Toronto:20260702T210000
+SUMMARY:Match: Round of 32
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 19:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:70a901ac865e4e04@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260703T123000
+DTEND;TZID=America/Toronto:20260704T001500
+SUMMARY:FIFA Fan Festival Toronto — Fri Jul 03
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 12:30 to 00:15 (nex
+ t day).\n\nMatch broadcasts:\n  • 14:00 — Round of 32\n  • 18:00 — Round 
+ of 32\n  • 21:30 — Round of 32\n\nPerformances: Bedouin Soundclash\, Tyle
+ r Shaw\, Kardinal Offishall Presents: Soundclash Society\n\nFree general 
+ admission — advance ticket required. Tickets: https://www.torontofwc26.ca
+ /FIFAFanFestival\nSchedule source: https://www.torontofwc26.ca/news/fifa-
+ fan-festival-toronto-schedule\nNote: Performance line-ups and TBC broadca
+ sts may change\; check the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc8fb8837584840@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260703T140000
+DTEND;TZID=America/Toronto:20260703T160000
+SUMMARY:Match: Round of 32
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 14:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:72ae10c856ab3971@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260703T180000
+DTEND;TZID=America/Toronto:20260703T200000
+SUMMARY:Match: Round of 32
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 18:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:464899571b714b1f@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260703T213000
+DTEND;TZID=America/Toronto:20260703T233000
+SUMMARY:Match: Round of 32
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:30 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b972d4bb50cccd7d@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260704T113000
+DTEND;TZID=America/Toronto:20260704T203000
+SUMMARY:FIFA Fan Festival Toronto — Sat Jul 04
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 11:30 to 20:30.\n\n
+ Match broadcasts:\n  • 13:00 — Round of 16\n  • 17:00 — Round of 16\n\nPe
+ rformances: Kardinal Offishall Presents: Soundclash Society\n\nFree gener
+ al admission — advance ticket required. Tickets: https://www.torontofwc26
+ .ca/FIFAFanFestival\nSchedule source: https://www.torontofwc26.ca/news/fi
+ fa-fan-festival-toronto-schedule\nNote: Performance line-ups and TBC broa
+ dcasts may change\; check the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:39ec49e4c9a82abd@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260704T130000
+DTEND;TZID=America/Toronto:20260704T150000
+SUMMARY:Match: Round of 16
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 13:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f9dcd34fc7fc2b15@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260704T170000
+DTEND;TZID=America/Toronto:20260704T190000
+SUMMARY:Match: Round of 16
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 17:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:459ecbd63f8eeb75@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260705T133000
+DTEND;TZID=America/Toronto:20260705T223000
+SUMMARY:FIFA Fan Festival Toronto — Sun Jul 05
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 13:30 to 22:30.\n\n
+ Match broadcasts:\n  • 16:00 — Round of 16\n  • 20:00 — Round of 16\n\nPe
+ rformances: MICO\, Kardinal Offishall Presents: Soundclash Society\n\nFre
+ e general admission — advance ticket required. Tickets: https://www.toron
+ tofwc26.ca/FIFAFanFestival\nSchedule source: https://www.torontofwc26.ca/
+ news/fifa-fan-festival-toronto-schedule\nNote: Performance line-ups and T
+ BC broadcasts may change\; check the official site for the latest informa
+ tion.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f846d3a5ca8123cc@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260705T160000
+DTEND;TZID=America/Toronto:20260705T180000
+SUMMARY:Match: Round of 16
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 16:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2aba812a7ca8904f@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260705T200000
+DTEND;TZID=America/Toronto:20260705T220000
+SUMMARY:Match: Round of 16
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 20:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ba29bd726fa94e65@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260711T143000
+DTEND;TZID=America/Toronto:20260712T000000
+SUMMARY:FIFA Fan Festival Toronto — Sat Jul 11
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 14:30 to 00:00 (nex
+ t day).\n\nMatch broadcasts:\n  • 17:00 — Quarter-final\n  • 21:00 — Quar
+ ter-final\n\nPerformances: Kardinal Offishall Presents: Soundclash Societ
+ y\n\nFree general admission — advance ticket required. Tickets: https://w
+ ww.torontofwc26.ca/FIFAFanFestival\nSchedule source: https://www.torontof
+ wc26.ca/news/fifa-fan-festival-toronto-schedule\nNote: Performance line-u
+ ps and TBC broadcasts may change\; check the official site for the latest
+  information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:914cc9f508d5f3aa@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260711T170000
+DTEND;TZID=America/Toronto:20260711T190000
+SUMMARY:Match: Quarter-final
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 17:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8d1bee4902f39686@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260711T210000
+DTEND;TZID=America/Toronto:20260711T230000
+SUMMARY:Match: Quarter-final
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 21:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5aafbdb4c3be45f9@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260714T123000
+DTEND;TZID=America/Toronto:20260714T183000
+SUMMARY:FIFA Fan Festival Toronto — Tue Jul 14
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 12:30 to 18:30.\n\n
+ Match broadcasts:\n  • 15:00 — Semi-final\n\nPerformances: Kardinal Offis
+ hall Presents: Soundclash Society\n\nFree general admission — advance tic
+ ket required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSched
+ ule source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-sc
+ hedule\nNote: Performance line-ups and TBC broadcasts may change\; check 
+ the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f6f0f5e079d1a346@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260714T150000
+DTEND;TZID=America/Toronto:20260714T170000
+SUMMARY:Match: Semi-final
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:317c02654d1510e4@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260715T123000
+DTEND;TZID=America/Toronto:20260715T183000
+SUMMARY:FIFA Fan Festival Toronto — Wed Jul 15
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 12:30 to 18:30.\n\n
+ Match broadcasts:\n  • 15:00 — Semi-final\n\nPerformances: Kardinal Offis
+ hall Presents: Soundclash Society\n\nFree general admission — advance tic
+ ket required. Tickets: https://www.torontofwc26.ca/FIFAFanFestival\nSched
+ ule source: https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-sc
+ hedule\nNote: Performance line-ups and TBC broadcasts may change\; check 
+ the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c2869f4cde90b686@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260715T150000
+DTEND;TZID=America/Toronto:20260715T170000
+SUMMARY:Match: Semi-final
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:44ab2a410fe249df@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260718T140000
+DTEND;TZID=America/Toronto:20260718T210000
+SUMMARY:FIFA Fan Festival Toronto — Sat Jul 18
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 14:00 to 21:00.\n\n
+ Match broadcasts:\n  • 17:00 — Bronze Final (Third-place play-off)\n\nPer
+ formances: Kardinal Offishall Presents: Soundclash Society\n\nFree genera
+ l admission — advance ticket required. Tickets: https://www.torontofwc26.
+ ca/FIFAFanFestival\nSchedule source: https://www.torontofwc26.ca/news/fif
+ a-fan-festival-toronto-schedule\nNote: Performance line-ups and TBC broad
+ casts may change\; check the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d40c5c68b4835e75@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260718T170000
+DTEND;TZID=America/Toronto:20260718T190000
+SUMMARY:Match: Bronze Final (Third-place play-off)
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 17:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c72703a3ebd598d7@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260719T120000
+DTEND;TZID=America/Toronto:20260719T203000
+SUMMARY:FIFA Fan Festival Toronto — Sun Jul 19
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:FIFA Fan Festival™ Toronto — opening hours 12:00 to 20:30.\n\n
+ Match broadcasts:\n  • 15:00 — Championship Final\n\nPerformances: Kardin
+ al Offishall Presents: Soundclash Society\n\nFree general admission — adv
+ ance ticket required. Tickets: https://www.torontofwc26.ca/FIFAFanFestiva
+ l\nSchedule source: https://www.torontofwc26.ca/news/fifa-fan-festival-to
+ ronto-schedule\nNote: Performance line-ups and TBC broadcasts may change\
+ ; check the official site for the latest information.
+CATEGORIES:FIFA Fan Festival Toronto
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:77beab997cd96847@fifa-fan-festival-toronto-2026
+DTSTAMP:20260427T200000Z
+DTSTART;TZID=America/Toronto:20260719T150000
+DTEND;TZID=America/Toronto:20260719T170000
+SUMMARY:Match: Championship Final
+LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
+ K9\, Canada
+DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
+ o.\n\nKick-off: 15:00 (local Toronto time).\n\nSource: https://www.toront
+ ofwc26.ca/news/fifa-fan-festival-toronto-schedule
+CATEGORIES:FIFA Fan Festival Toronto\, Match Broadcast
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
