@@ -608,11 +608,13 @@ def build_calendar(schedule: list[FestivalDay],
             end_date, end_hhmm, next_day = add_minutes(
                 day.date, m.start, m.duration_min)
             tags = []
-            if m.toronto_match:
-                tags.append("Toronto host-city match")
             if m.tentative:
                 tags.append("TBC")
             tag_str = f" [{'; '.join(tags)}]" if tags else ""
+            if m.toronto_match:
+                summary_str = f"Match: [TO] {m.title}{tag_str}"
+            else:
+                summary_str = f"Match: {m.title}{tag_str}"
             match_desc = [
                 "Match broadcast on the big screen at FIFA Fan "
                 "Festival\u2122 Toronto.",
@@ -632,7 +634,7 @@ def build_calendar(schedule: list[FestivalDay],
                 "Source: " + SOURCES["torontofwc26_schedule"])
             emit_event(
                 lines,
-                summary=f"Match: {m.title}{tag_str}",
+                summary=summary_str,
                 description="\n".join(match_desc),
                 dtstart=fmt_local(day.date, m.start),
                 dtend=fmt_local(end_date, end_hhmm, next_day=next_day),
