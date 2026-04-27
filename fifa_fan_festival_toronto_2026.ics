@@ -82,11 +82,11 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:9031265391396860@fifa-fan-festival-toronto-2026
+UID:fa875e3b39079b23@fifa-fan-festival-toronto-2026
 DTSTAMP:20260427T200000Z
 DTSTART;TZID=America/Toronto:20260612T150000
 DTEND;TZID=America/Toronto:20260612T170000
-SUMMARY:Match: Canada vs Bosnia & Herzegovina [Toronto host-city match]
+SUMMARY:Match: [TO] Canada vs Bosnia & Herzegovina
 LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
  K9\, Canada
 DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
@@ -250,11 +250,11 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:64d001426f21b09f@fifa-fan-festival-toronto-2026
+UID:c37783bf4085de46@fifa-fan-festival-toronto-2026
 DTSTAMP:20260427T200000Z
 DTSTART;TZID=America/Toronto:20260617T160000
 DTEND;TZID=America/Toronto:20260617T180000
-SUMMARY:Match: England vs Croatia [Toronto host-city match]
+SUMMARY:Match: [TO] England vs Croatia
 LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
  K9\, Canada
 DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
@@ -434,11 +434,11 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:2543b212ce1a5c80@fifa-fan-festival-toronto-2026
+UID:d4360e689e7f21a1@fifa-fan-festival-toronto-2026
 DTSTAMP:20260427T200000Z
 DTSTART;TZID=America/Toronto:20260620T160000
 DTEND;TZID=America/Toronto:20260620T180000
-SUMMARY:Match: Germany vs Côte d'Ivoire [Toronto host-city match]
+SUMMARY:Match: [TO] Germany vs Côte d'Ivoire
 LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
  K9\, Canada
 DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
@@ -552,11 +552,11 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:a62e6874efb30e50@fifa-fan-festival-toronto-2026
+UID:8975da489086e408@fifa-fan-festival-toronto-2026
 DTSTAMP:20260427T200000Z
 DTSTART;TZID=America/Toronto:20260623T130000
 DTEND;TZID=America/Toronto:20260623T150000
-SUMMARY:Match: Portugal vs Uzbekistan [Toronto host-city match]
+SUMMARY:Match: [TO] Portugal vs Uzbekistan
 LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
  K9\, Canada
 DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
@@ -687,12 +687,11 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:ccce0ca8b2cc1d23@fifa-fan-festival-toronto-2026
+UID:0c3940ab91ce33a0@fifa-fan-festival-toronto-2026
 DTSTAMP:20260427T200000Z
 DTSTART;TZID=America/Toronto:20260626T150000
 DTEND;TZID=America/Toronto:20260626T170000
-SUMMARY:Match: To be confirmed (Toronto match) [Toronto host-city match\; 
- TBC]
+SUMMARY:Match: [TO] To be confirmed (Toronto match) [TBC]
 LOCATION:Fort York & The Bentway\, 250 Fort York Blvd\, Toronto\, ON M5V 3
  K9\, Canada
 DESCRIPTION:Match broadcast on the big screen at FIFA Fan Festival™ Toront
