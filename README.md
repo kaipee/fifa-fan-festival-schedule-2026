@@ -15,8 +15,6 @@ Schedule, and event, details are automatically consolidated every week as inform
 
 A viewable, publicly accessible, Google Calendar is available here : [FIFA Fan Festival calendar](https://calendar.google.com/calendar/embed?src=d3195aa9b0556173aa2bbd89a4290ea5ac21555a545ef5e1d8b237b4997d9444%40group.calendar.google.com&ctz=America%2FToronto)
 
-An **.ics** file is available to download and import into your own calendar. Download from the [Releases](https://github.com/kaipee/fifa-fan-festival-schedule-2026/releases) page on the right.
-
 ## Import instructions
 
 ### Google Calendar
