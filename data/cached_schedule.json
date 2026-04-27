@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "fetched_at": "2026-04-27T20:00:00Z",
+  "sources": {
+    "torontofwc26_schedule": "https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-schedule",
+    "torontofwc26_festival": "https://www.torontofwc26.ca/FIFAFanFestival",
+    "toronto_news": "https://www.toronto.ca/news/city-of-toronto-shares-first-look-at-fifa-fan-festival-toronto/",
+    "fifa_fan_festival": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/fan-festival"
+  },
+  "days": [
+    {
+      "date": "2026-06-11",
+      "open_start": "12:30",
+      "open_end": "19:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Mexico vs South Africa", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "AHI"},
+        {"artist": "Skratch Bastid"},
+        {"artist": "Walk off the Earth"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["Ballet Folklórico Puro México", "Mariachi Band Vientos del Norte"]
+    },
+    {
+      "date": "2026-06-12",
+      "open_start": "12:30",
+      "open_end": "23:30",
+      "crosses_midnight": false,
+      "toronto_match_day": true,
+      "matches": [
+        {"title": "Canada vs Bosnia & Herzegovina", "start": "15:00", "duration_min": 120, "toronto_match": true, "tentative": false},
+        {"title": "USA vs Paraguay", "start": "21:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Big Wreck"},
+        {"artist": "Choir! Choir! Choir!"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-06-13",
+      "open_start": "13:00",
+      "open_end": "23:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Qatar vs Switzerland", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Brazil vs Morocco", "start": "18:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Haiti vs Scotland", "start": "21:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Anna Sofia"},
+        {"artist": "The Strumbellas"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["Springcreek Dancers"]
+    },
+    {
+      "date": "2026-06-14",
+      "open_start": "13:30",
+      "open_end": "21:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Netherlands vs Japan", "start": "16:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Côte d'Ivoire vs Ecuador", "start": "19:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Murda Beatz"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["Nagata Shachu"]
+    },
+    {
+      "date": "2026-06-17",
+      "open_start": "14:30",
+      "open_end": "22:30",
+      "crosses_midnight": false,
+      "toronto_match_day": true,
+      "matches": [
+        {"title": "England vs Croatia", "start": "16:00", "duration_min": 120, "toronto_match": true, "tentative": false},
+        {"title": "Ghana vs Panama", "start": "19:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["Black Stars Collective"]
+    },
+    {
+      "date": "2026-06-18",
+      "open_start": "13:30",
+      "open_end": "23:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Switzerland vs Bosnia & Herzegovina", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Canada vs Qatar", "start": "18:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Mexico vs Korea", "start": "21:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Dwayne Gretzky"},
+        {"artist": "The Brokes"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["HanBeat Nanta"]
+    },
+    {
+      "date": "2026-06-19",
+      "open_start": "13:30",
+      "open_end": "23:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "USA vs Australia", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Scotland vs Morocco", "start": "18:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Brazil vs Haiti", "start": "21:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Dwayne Gretzky"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["SuperDogs"]
+    },
+    {
+      "date": "2026-06-20",
+      "open_start": "13:00",
+      "open_end": "22:30",
+      "crosses_midnight": false,
+      "toronto_match_day": true,
+      "matches": [
+        {"title": "Germany vs Côte d'Ivoire", "start": "16:00", "duration_min": 120, "toronto_match": true, "tentative": false},
+        {"title": "Ecuador vs Curaçao", "start": "20:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "k-os"},
+        {"artist": "Skratch Bastid"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-06-21",
+      "open_start": "10:30",
+      "open_end": "21:00",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Spain vs Saudi Arabia", "start": "12:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Belgium vs IR Iran", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Uruguay vs Cape Verde", "start": "18:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Allied Nations"},
+        {"artist": "Classic Roots"},
+        {"artist": "Nimkii and the Niniis"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["The Sky Dancers"]
+    },
+    {
+      "date": "2026-06-23",
+      "open_start": "11:30",
+      "open_end": "22:30",
+      "crosses_midnight": false,
+      "toronto_match_day": true,
+      "matches": [
+        {"title": "Portugal vs Uzbekistan", "start": "13:00", "duration_min": 120, "toronto_match": true, "tentative": false},
+        {"title": "England vs Ghana", "start": "16:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Panama vs Croatia", "start": "19:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Shawn Desman"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-06-24",
+      "open_start": "13:30",
+      "open_end": "23:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Switzerland vs Canada", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "To be confirmed", "start": "18:00", "duration_min": 120, "toronto_match": false, "tentative": true},
+        {"title": "To be confirmed", "start": "21:00", "duration_min": 120, "toronto_match": false, "tentative": true}
+      ],
+      "performances": [
+        {"artist": "Snotty Nose Rez Kids"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": ["SHOUT! the band"]
+    },
+    {
+      "date": "2026-06-26",
+      "open_start": "13:30",
+      "open_end": "22:30",
+      "crosses_midnight": false,
+      "toronto_match_day": true,
+      "matches": [
+        {"title": "To be confirmed (Toronto match)", "start": "15:00", "duration_min": 120, "toronto_match": true, "tentative": true},
+        {"title": "Uruguay vs Spain", "start": "20:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Ikky"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-06-27",
+      "open_start": "14:30",
+      "open_end": "22:00",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Panama vs England", "start": "17:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Colombia vs Portugal", "start": "19:30", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-02",
+      "open_start": "13:30",
+      "open_end": "22:30",
+      "crosses_midnight": false,
+      "toronto_match_day": true,
+      "matches": [
+        {"title": "Round of 32", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Round of 32", "start": "19:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Deborah Cox"},
+        {"artist": "TOBi"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-03",
+      "open_start": "12:30",
+      "open_end": "00:15",
+      "crosses_midnight": true,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Round of 32", "start": "14:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Round of 32", "start": "18:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Round of 32", "start": "21:30", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Bedouin Soundclash"},
+        {"artist": "Tyler Shaw"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-04",
+      "open_start": "11:30",
+      "open_end": "20:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Round of 16", "start": "13:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Round of 16", "start": "17:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-05",
+      "open_start": "13:30",
+      "open_end": "22:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Round of 16", "start": "16:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Round of 16", "start": "20:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "MICO"},
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-11",
+      "open_start": "14:30",
+      "open_end": "00:00",
+      "crosses_midnight": true,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Quarter-final", "start": "17:00", "duration_min": 120, "toronto_match": false, "tentative": false},
+        {"title": "Quarter-final", "start": "21:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-14",
+      "open_start": "12:30",
+      "open_end": "18:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Semi-final", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-15",
+      "open_start": "12:30",
+      "open_end": "18:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Semi-final", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-18",
+      "open_start": "14:00",
+      "open_end": "21:00",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Bronze Final (Third-place play-off)", "start": "17:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    },
+    {
+      "date": "2026-07-19",
+      "open_start": "12:00",
+      "open_end": "20:30",
+      "crosses_midnight": false,
+      "toronto_match_day": false,
+      "matches": [
+        {"title": "Championship Final", "start": "15:00", "duration_min": 120, "toronto_match": false, "tentative": false}
+      ],
+      "performances": [
+        {"artist": "Kardinal Offishall Presents: Soundclash Society"}
+      ],
+      "cultural": []
+    }
+  ]
+}
