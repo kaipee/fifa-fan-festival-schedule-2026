@@ -1,5 +1,7 @@
 # FIFA Fan Festival™ Toronto 2026 — Calendar (.ics)
 
+[![Download Latest Calendar](https://img.shields.io/badge/Download-Latest%20.ics-blue?style=for-the-badge)](https://github.com/kaipee/fifa-fan-festival-schedule-2026/releases/latest/download/fifa_fan_festival_toronto_2026.ics)
+
 This repository contains a non-official calendar schedule for the official **FIFA Fan
 Festival™ Toronto** during the **FIFA World Cup 2026™**.
 
