@@ -46,6 +46,7 @@ on:
       - 'generate_ics.py'
       - 'requirements.txt'
       - '.github/workflows/refresh-schedule.yml'
+      - 'data/cached_schedule.json'
 
 # Serialize runs so two jobs never race each other on a commit/push.
 concurrency:
@@ -104,17 +105,21 @@ jobs:
           python generate_ics.py
 
       # -----------------------------------------------------------------------
-      # 5. Detect file changes against HEAD. We only care about the two
-      #    output artifacts the generator is allowed to mutate.
+      # 5. Detect file changes against HEAD. We care about three
+      #    output artifacts the generator is allowed to mutate:
+      #    the .ics, the cached schedule, and the README schedule
+      #    table (kept in sync between SCHEDULE_TABLE_{START,END}
+      #    markers by generate_ics.py).
       # -----------------------------------------------------------------------
       - name: Detect changes
         id: diff
         shell: bash
         run: |
           set -euo pipefail
-          changed="$(git status --porcelain -- fifa_fan_festival_toronto_2026.ics data/cached_schedule.json)"
+          changed="$(git status --porcelain -- fifa_fan_festival_toronto_2026.ics data/cached_schedule.json README.md)"
           # Separately check the .ics — releases are gated on real .ics
-          # content change; a cache-only refresh must NOT cut a release.
+          # content change; a cache-only or README-only refresh must NOT
+          # cut a release.
           ics_changed_raw="$(git status --porcelain -- fifa_fan_festival_toronto_2026.ics)"
           if [[ -n "${changed}" ]]; then
             echo "has_changes=true" >> "${GITHUB_OUTPUT}"
@@ -181,7 +186,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add fifa_fan_festival_toronto_2026.ics data/cached_schedule.json
+          git add fifa_fan_festival_toronto_2026.ics data/cached_schedule.json README.md
           # --allow-empty supports the force_commit=true / no-diff path.
           git commit -m "chore(schedule): weekly auto-refresh — ${TODAY} (${VEVENT_COUNT} VEVENTs)" --allow-empty
           git push origin "HEAD:${GITHUB_REF_NAME}"
@@ -221,6 +226,7 @@ jobs:
           add-paths: |
             fifa_fan_festival_toronto_2026.ics
             data/cached_schedule.json
+            README.md
 
       # -----------------------------------------------------------------------
       # 8a. Compute the next release tag.
