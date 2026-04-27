@@ -1,17 +1,19 @@
 # FIFA Fan Festival™ Toronto 2026 — Calendar (.ics)
 
-This repository contains a calendar schedule for the official **FIFA Fan
+This repository contains a non-official calendar schedule for the official **FIFA Fan
 Festival™ Toronto** during the **FIFA World Cup 2026™**.
-
-**Public Google Calendar:** https://calendar.google.com/calendar/embed?src=d3195aa9b0556173aa2bbd89a4290ea5ac21555a545ef5e1d8b237b4997d9444%40group.calendar.google.com&ctz=America%2FToronto
 
 - **Festival dates:** Thursday, June 11 – Sunday, July 19, 2026 (22 event days)
 - **Venue:** Fort York National Historic Site & The Bentway,
   250 Fort York Blvd, Toronto, ON M5V 3K9
-- **Admission:** Free general admission, advance ticket required (premium
-  packages also available). Tickets on sale **May 6, 2026**.
 - **Time zone:** All times are local Toronto time (`America/Toronto`,
   EDT = UTC−4 throughout the festival).
+
+Schedule, and event, details are automatically consolidated every week as information changes.
+
+A viewable, publicly accessible, Google Calendar is available here : [FIFA Fan Festival calendar](https://calendar.google.com/calendar/embed?src=d3195aa9b0556173aa2bbd89a4290ea5ac21555a545ef5e1d8b237b4997d9444%40group.calendar.google.com&ctz=America%2FToronto)
+
+An **.ics** file is available to download and import into your own calendar. Download from the **Releases** page on the right.
 
 ## Import instructions
 
