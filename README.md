@@ -13,39 +13,49 @@ Festival™ Toronto** during the **FIFA World Cup 2026™**.
 - **Time zone:** All times are local Toronto time (`America/Toronto`,
   EDT = UTC−4 throughout the festival).
 
-## Files
+## Import instructions
 
-| File | Purpose |
-|---|---|
-| [`fifa_fan_festival_toronto_2026.ics`](fifa_fan_festival_toronto_2026.ics:1) | The calendar file. Import into Google / Apple / Outlook. |
-| [`generate_ics.py`](generate_ics.py:1) | Reproducible generator — re-run to regenerate the `.ics`. |
-| [`spec.md`](spec.md:1) | Original task spec. |
+### Google Calendar
 
-The `.ics` file contains **68 VEVENTs**:
+1. Open <https://calendar.google.com> on a desktop browser.
+2. Click the **⚙ Settings** icon → **Settings**.
+3. In the left sidebar, choose **Import & export** → **Import**.
+4. Click **Select file from your computer** and choose
+   `fifa_fan_festival_toronto_2026.ics`.
+5. Pick which Google calendar to add the events to (consider creating a
+   new one called "FIFA Fan Festival Toronto 2026" first via **+ Other
+   calendars → Create new calendar**).
+6. Click **Import**. You should see "68 events imported".
 
-- **22** day-level events (one per festival opening-hours block, with the
-  full performer line-up in the `DESCRIPTION`)
-- **46** match-broadcast events (one per scheduled big-screen broadcast,
-  ~2-hour blocks at each kick-off)
+### Apple Calendar (macOS / iOS)
 
-A `VTIMEZONE` block for `America/Toronto` is included, and timestamps use
-`TZID=America/Toronto` (no naïve UTC).
+**macOS:**
 
-## Sources
+1. Double-click `fifa_fan_festival_toronto_2026.ics` in Finder, **or**
+   open Calendar and choose **File → Import…** → select the file.
+2. Choose the calendar to add the events to (you can pick **New
+   Calendar…** to keep them separate).
+3. Click **OK**.
 
-The schedule was transcribed verbatim from the **official Toronto FIFA
-World Cup 26™ host-city site** on **2026-04-27**:
+**iOS / iPadOS:** Email or AirDrop the `.ics` file to your device, tap
+it, then tap **Add All** when Calendar prompts.
 
-1. **Schedule (primary source):**
-   <https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-schedule>
-2. **Festival overview & venue:**
-   <https://www.torontofwc26.ca/FIFAFanFestival>
-3. **City of Toronto news release (Apr 27, 2026):**
-   <https://www.toronto.ca/news/city-of-toronto-shares-first-look-at-fifa-fan-festival-toronto/>
-4. **Background coverage:**
-   - CBC News — <https://www.cbc.ca/news/canada/toronto/toronto-fifa-world-cup-fan-festival-sneak-peek-9.7178713>
-   - Province of Ontario — <https://www.ontario.ca/page/fifa-world-cup-2026tm-toronto>
-   - FIFA.com — <https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/fifa-fan-festival/toronto>
+### Microsoft Outlook
+
+**Outlook on the web (outlook.com / Office 365):**
+
+1. Go to **Calendar** → **Add calendar** → **Upload from file**.
+2. Browse and select `fifa_fan_festival_toronto_2026.ics`.
+3. Choose a destination calendar and click **Import**.
+
+**Outlook desktop (Windows):**
+
+1. **File → Open & Export → Import/Export**.
+2. Choose **Import an iCalendar (.ics) or vCalendar file (.vcs)** →
+   **Next**.
+3. Browse to `fifa_fan_festival_toronto_2026.ics`.
+4. When prompted, choose **Import** to merge events into your default
+   calendar, or **Open as New** to keep them in a separate calendar.
 
 ## Schedule
 
@@ -106,6 +116,24 @@ If/when FIFA or the City publishes updated fixtures, edit the
 [`SCHEDULE`](generate_ics.py:69) list in
 [`generate_ics.py`](generate_ics.py:1) and re-run it.
 
+## Files
+
+| File | Purpose |
+|---|---|
+| [`fifa_fan_festival_toronto_2026.ics`](fifa_fan_festival_toronto_2026.ics:1) | The calendar file. Import into Google / Apple / Outlook. |
+| [`generate_ics.py`](generate_ics.py:1) | Reproducible generator — re-run to regenerate the `.ics`. |
+| [`spec.md`](spec.md:1) | Original task spec. |
+
+The `.ics` file contains **68 VEVENTs**:
+
+- **22** day-level events (one per festival opening-hours block, with the
+  full performer line-up in the `DESCRIPTION`)
+- **46** match-broadcast events (one per scheduled big-screen broadcast,
+  ~2-hour blocks at each kick-off)
+
+A `VTIMEZONE` block for `America/Toronto` is included, and timestamps use
+`TZID=America/Toronto` (no naïve UTC).
+
 ## How to regenerate the `.ics`
 
 The generator uses only the Python 3 standard library:
@@ -125,49 +153,21 @@ python3 -m venv .venv
   print(len(list(c.walk('VEVENT'))), 'VEVENTs parsed')"
 ```
 
-## Import instructions
+## Sources
 
-### Google Calendar
+The schedule was transcribed verbatim from the **official Toronto FIFA
+World Cup 26™ host-city site** on **2026-04-27**:
 
-1. Open <https://calendar.google.com> on a desktop browser.
-2. Click the **⚙ Settings** icon → **Settings**.
-3. In the left sidebar, choose **Import & export** → **Import**.
-4. Click **Select file from your computer** and choose
-   `fifa_fan_festival_toronto_2026.ics`.
-5. Pick which Google calendar to add the events to (consider creating a
-   new one called "FIFA Fan Festival Toronto 2026" first via **+ Other
-   calendars → Create new calendar**).
-6. Click **Import**. You should see "68 events imported".
-
-### Apple Calendar (macOS / iOS)
-
-**macOS:**
-
-1. Double-click `fifa_fan_festival_toronto_2026.ics` in Finder, **or**
-   open Calendar and choose **File → Import…** → select the file.
-2. Choose the calendar to add the events to (you can pick **New
-   Calendar…** to keep them separate).
-3. Click **OK**.
-
-**iOS / iPadOS:** Email or AirDrop the `.ics` file to your device, tap
-it, then tap **Add All** when Calendar prompts.
-
-### Microsoft Outlook
-
-**Outlook on the web (outlook.com / Office 365):**
-
-1. Go to **Calendar** → **Add calendar** → **Upload from file**.
-2. Browse and select `fifa_fan_festival_toronto_2026.ics`.
-3. Choose a destination calendar and click **Import**.
-
-**Outlook desktop (Windows):**
-
-1. **File → Open & Export → Import/Export**.
-2. Choose **Import an iCalendar (.ics) or vCalendar file (.vcs)** →
-   **Next**.
-3. Browse to `fifa_fan_festival_toronto_2026.ics`.
-4. When prompted, choose **Import** to merge events into your default
-   calendar, or **Open as New** to keep them in a separate calendar.
+1. **Schedule (primary source):**
+   <https://www.torontofwc26.ca/news/fifa-fan-festival-toronto-schedule>
+2. **Festival overview & venue:**
+   <https://www.torontofwc26.ca/FIFAFanFestival>
+3. **City of Toronto news release (Apr 27, 2026):**
+   <https://www.toronto.ca/news/city-of-toronto-shares-first-look-at-fifa-fan-festival-toronto/>
+4. **Background coverage:**
+   - CBC News — <https://www.cbc.ca/news/canada/toronto/toronto-fifa-world-cup-fan-festival-sneak-peek-9.7178713>
+   - Province of Ontario — <https://www.ontario.ca/page/fifa-world-cup-2026tm-toronto>
+   - FIFA.com — <https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/fifa-fan-festival/toronto>
 
 ## Caveats
 
