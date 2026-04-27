@@ -69,9 +69,10 @@ experiences and surprises will be announced throughout the tournament."*
 `★` = Toronto host-city match day (a FIFA World Cup match is being played
 that day at Toronto Stadium / BMO Field).
 
+<!-- SCHEDULE_TABLE_START -->
 | Date | Open Hours | Match Broadcasts | Performances | Cultural / Community | Venue |
 |---|---|---|---|---|---|
-| Thu Jun 11, 2026 | 12:30 – 19:30 | 15:00 Mexico vs South Africa | AHI; Skratch Bastid; Walk off the Earth; Kardinal Offishall *Soundclash Society* | Ballet Folklórico Puro México; Mariachi Vientos del Norte | Fort York & The Bentway |
+| Thu Jun 11, 2026 | 12:30 – 19:30 | 15:00 Mexico vs South Africa | AHI; Skratch Bastid; Walk off the Earth; *Soundclash Society* | Ballet Folklórico Puro México; Mariachi Band Vientos del Norte | Fort York & The Bentway |
 | Fri Jun 12, 2026 ★ | 12:30 – 23:30 | 15:00 Canada vs Bosnia & Herzegovina ★; 21:00 USA vs Paraguay | Big Wreck; Choir! Choir! Choir!; *Soundclash Society* | — | Fort York & The Bentway |
 | Sat Jun 13, 2026 | 13:00 – 23:30 | 15:00 Qatar vs Switzerland; 18:00 Brazil vs Morocco; 21:00 Haiti vs Scotland | Anna Sofia; The Strumbellas; *Soundclash Society* | Springcreek Dancers | Fort York & The Bentway |
 | Sun Jun 14, 2026 | 13:30 – 21:30 | 16:00 Netherlands vs Japan; 19:00 Côte d'Ivoire vs Ecuador | Murda Beatz; *Soundclash Society* | Nagata Shachu | Fort York & The Bentway |
@@ -92,7 +93,8 @@ that day at Toronto Stadium / BMO Field).
 | Tue Jul 14, 2026 | 12:30 – 18:30 | 15:00 Semi-final | *Soundclash Society* | — | Fort York & The Bentway |
 | Wed Jul 15, 2026 | 12:30 – 18:30 | 15:00 Semi-final | *Soundclash Society* | — | Fort York & The Bentway |
 | Sat Jul 18, 2026 | 14:00 – 21:00 | 17:00 Bronze Final (Third-place play-off) | *Soundclash Society* | — | Fort York & The Bentway |
-| Sun Jul 19, 2026 | 12:00 – 20:30 | 15:00 **Championship Final** | *Soundclash Society* | — | Fort York & The Bentway |
+| Sun Jul 19, 2026 | 12:00 – 20:30 | 15:00 Championship Final | *Soundclash Society* | — | Fort York & The Bentway |
+<!-- SCHEDULE_TABLE_END -->
 
 > *"Soundclash Society"* = Kardinal Offishall Presents: Soundclash Society
 > — a curated supergroup of Toronto DJs anchoring all 22 festival days.
