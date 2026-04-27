@@ -74,6 +74,13 @@ except Exception:  # pragma: no cover
 ROOT = Path(__file__).parent
 OUTPUT_FILE = ROOT / "fifa_fan_festival_toronto_2026.ics"
 CACHE_FILE = ROOT / "data" / "cached_schedule.json"
+README_FILE = ROOT / "README.md"
+
+# HTML-comment markers delimiting the auto-generated schedule table in
+# README.md. Anything between these markers (inclusive of the markers
+# themselves staying put) is rewritten by ``render_readme_table``.
+README_TABLE_START = "<!-- SCHEDULE_TABLE_START -->"
+README_TABLE_END = "<!-- SCHEDULE_TABLE_END -->"
 
 VENUE = ("Fort York & The Bentway, 250 Fort York Blvd, "
          "Toronto, ON M5V 3K9, Canada")
@@ -664,6 +671,183 @@ def build_calendar(schedule: list[FestivalDay],
 
 
 # ---------------------------------------------------------------------------
+# README schedule-table renderer
+# ---------------------------------------------------------------------------
+
+# Header used both when (re)building the table from scratch and when
+# locating an existing table in README.md without markers (legacy
+# migration path).
+README_TABLE_HEADER = (
+    "| Date | Open Hours | Match Broadcasts | Performances "
+    "| Cultural / Community | Venue |"
+)
+README_TABLE_SEPARATOR = "|---|---|---|---|---|---|"
+
+# The festival's single venue label as displayed in the README table
+# (kept short on purpose; full address lives in the .ics LOCATION).
+README_VENUE = "Fort York & The Bentway"
+
+# Long performer names that the README table abbreviates for
+# readability. Keys match cache ``artist`` strings exactly; values are
+# the rendered Markdown (italics intentional — matches the existing
+# table style and the explanatory note immediately below it).
+PERFORMER_DISPLAY_OVERRIDES: dict[str, str] = {
+    "Kardinal Offishall Presents: Soundclash Society":
+        "*Soundclash Society*",
+}
+
+
+def _format_date_cell(date_iso: str, toronto_match_day: bool) -> str:
+    """Render ``2026-06-11`` → ``Thu Jun 11, 2026`` (with ``★`` suffix
+    for Toronto host-city match days)."""
+    dt = datetime.fromisoformat(date_iso)
+    cell = dt.strftime("%a %b %d, %Y")
+    # strftime emits zero-padded day on all platforms we target; the
+    # existing README uses non-padded ("Jun 11" not "Jun 11"). Strip
+    # the leading zero on the day component to match.
+    cell = re.sub(r"\b0(\d,)", r"\1", cell)
+    if toronto_match_day:
+        cell += " ★"
+    return cell
+
+
+def _format_open_hours_cell(day: FestivalDay) -> str:
+    cell = f"{day.open_start} – {day.open_end}"
+    if day.crosses_midnight:
+        cell += " (next day)"
+    return cell
+
+
+def _format_match_cell(matches: list[Match]) -> str:
+    if not matches:
+        return "—"
+    parts: list[str] = []
+    for m in matches:
+        if m.tentative:
+            # Preserve any parenthesized clarifier from the cache title
+            # (e.g. "To be confirmed (Toronto match)" → "**TBC** (Toronto match)").
+            paren = re.search(r"\(([^)]+)\)", m.title)
+            label = "**TBC**"
+            if paren:
+                label = f"**TBC** ({paren.group(1)})"
+            piece = f"{m.start} {label}"
+        else:
+            piece = f"{m.start} {m.title}"
+        if m.toronto_match:
+            piece += " ★"
+        parts.append(piece)
+    return "; ".join(parts)
+
+
+def _format_performances_cell(performances: list[Performance]) -> str:
+    if not performances:
+        return "—"
+    parts: list[str] = []
+    for p in performances:
+        display = PERFORMER_DISPLAY_OVERRIDES.get(p.artist, p.artist)
+        if p.time:
+            parts.append(f"{p.time} {display}")
+        else:
+            parts.append(display)
+    return "; ".join(parts)
+
+
+def _format_cultural_cell(cultural: list[str]) -> str:
+    if not cultural:
+        return "—"
+    return "; ".join(cultural)
+
+
+def render_schedule_table(schedule: list[FestivalDay]) -> str:
+    """Return the Markdown schedule table (header + separator + rows).
+
+    Output uses ``\\n`` line endings and does NOT include a trailing
+    newline; the caller controls the surrounding whitespace.
+    """
+    lines: list[str] = [README_TABLE_HEADER, README_TABLE_SEPARATOR]
+    for day in schedule:
+        row = "| " + " | ".join([
+            _format_date_cell(day.date, day.toronto_match_day),
+            _format_open_hours_cell(day),
+            _format_match_cell(day.matches),
+            _format_performances_cell(day.performances),
+            _format_cultural_cell(day.cultural),
+            README_VENUE,
+        ]) + " |"
+        lines.append(row)
+    return "\n".join(lines)
+
+
+def update_readme_table(
+    schedule: list[FestivalDay],
+    readme_path: Path = README_FILE,
+) -> bool:
+    """Rewrite the schedule table inside README.md between the
+    ``SCHEDULE_TABLE_{START,END}`` HTML-comment markers.
+
+    If the markers are absent, they are inserted around the *first*
+    pre-existing schedule table that matches ``README_TABLE_HEADER``
+    (one-shot migration). If neither markers nor a recognisable table
+    exist, the file is left untouched and ``False`` is returned.
+
+    Returns ``True`` when the file content actually changed on disk
+    (i.e. caller's "did anything change?" signal — keeps the GitHub
+    Action idempotent).
+    """
+    if not readme_path.exists():
+        print(f"WARNING: {readme_path} does not exist; skipping "
+              "README table update.", file=sys.stderr)
+        return False
+
+    original = readme_path.read_text(encoding="utf-8")
+    table_md = render_schedule_table(schedule)
+    block = f"{README_TABLE_START}\n{table_md}\n{README_TABLE_END}"
+
+    if README_TABLE_START in original and README_TABLE_END in original:
+        # Replace whatever currently sits between the markers (inclusive).
+        pattern = re.compile(
+            re.escape(README_TABLE_START) + r".*?"
+            + re.escape(README_TABLE_END),
+            re.DOTALL,
+        )
+        updated = pattern.sub(lambda _m: block, original, count=1)
+    else:
+        # One-shot migration: locate the first existing table by its
+        # header line and wrap it (header + separator + contiguous
+        # ``|`` rows) with the markers.
+        lines = original.splitlines()
+        try:
+            hdr_idx = lines.index(README_TABLE_HEADER)
+        except ValueError:
+            print(
+                "WARNING: README.md has no SCHEDULE_TABLE markers and "
+                "no recognisable schedule-table header; leaving file "
+                "unchanged. Add the markers manually to enable "
+                "auto-updates.",
+                file=sys.stderr,
+            )
+            return False
+        end_idx = hdr_idx + 1
+        # Walk past the separator + every consecutive table row.
+        while end_idx < len(lines) and lines[end_idx].startswith("|"):
+            end_idx += 1
+        # ``end_idx`` is now the first non-table line after the table.
+        new_lines = (
+            lines[:hdr_idx]
+            + [README_TABLE_START, table_md, README_TABLE_END]
+            + lines[end_idx:]
+        )
+        # Preserve the original file's trailing-newline behaviour.
+        trailing_nl = "\n" if original.endswith("\n") else ""
+        updated = "\n".join(new_lines) + trailing_nl
+
+    if updated == original:
+        return False
+    readme_path.write_text(updated, encoding="utf-8")
+    return True
+
+
+# ---------------------------------------------------------------------------
 # Orchestration
 # ---------------------------------------------------------------------------
 
@@ -736,7 +920,32 @@ def main(argv: Iterable[str] | None = None) -> int:
         # but be defensive in case CI ever overrides it).
         def _norm(s: str) -> str:
             return re.sub(r"\r?\nDTSTAMP:[^\r\n]+", "", s)
-        if _norm(previous) == _norm(ics):
+        ics_changed = _norm(previous) != _norm(ics)
+
+        # Compare README schedule table without mutating the file.
+        readme_changed = False
+        if README_FILE.exists():
+            current_readme = README_FILE.read_text(encoding="utf-8")
+            new_table = render_schedule_table(schedule)
+            new_block = (
+                f"{README_TABLE_START}\n{new_table}\n{README_TABLE_END}"
+            )
+            if (README_TABLE_START in current_readme
+                    and README_TABLE_END in current_readme):
+                pattern = re.compile(
+                    re.escape(README_TABLE_START) + r".*?"
+                    + re.escape(README_TABLE_END),
+                    re.DOTALL,
+                )
+                match = pattern.search(current_readme)
+                if match and match.group(0) != new_block:
+                    readme_changed = True
+            else:
+                # No markers yet — first run will inject them, which
+                # counts as a change.
+                readme_changed = README_TABLE_HEADER in current_readme
+
+        if not ics_changed and not readme_changed:
             print("STATUS: unchanged")
         else:
             print("STATUS: changed")
@@ -763,6 +972,16 @@ def main(argv: Iterable[str] | None = None) -> int:
             print(f"WARNING: failed to update cache: {exc}",
                   file=sys.stderr)
 
+    # Refresh the README schedule table. Idempotent: only writes when
+    # the rendered table differs from what's already on disk.
+    readme_updated = False
+    if not args.dry_run:
+        try:
+            readme_updated = update_readme_table(schedule)
+        except Exception as exc:  # pragma: no cover
+            print(f"WARNING: failed to update README table: {exc}",
+                  file=sys.stderr)
+
     n_days = len(schedule)
     n_matches = sum(len(d.matches) for d in schedule)
     n_perfs = sum(1 for d in schedule for p in d.performances if p.time)
@@ -773,6 +992,8 @@ def main(argv: Iterable[str] | None = None) -> int:
         f"({n_days} festival days, {n_matches} match broadcasts, "
         f"{n_perfs} timed performances, {n_events} VEVENTs)."
     )
+    if readme_updated:
+        print(f"Updated README schedule table in {README_FILE}.")
     if used_cache:
         print("  (used cache fallback — no live source reachable)",
               file=sys.stderr)
